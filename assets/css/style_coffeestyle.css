@@ -1,0 +1,550 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla-Regular\(30\).ttf);
+}
+@font-face {
+    font-family: "Karla2";
+    src: url(../fonts/Karla-Medium.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+
+.contaiter_header{
+    
+    max-width: 70%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_header ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu_h{
+    text-decoration: none;
+}
+
+.main_header{
+    margin-top: 27px;
+    display: flex;
+}
+
+.cart_header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.img2_cart{
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.text1_header{
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 'Karla';
+    color: #1D1F2E;
+    padding-top: 3px;
+}
+
+.menu_h{
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: 'Karla';
+    color: #1D1F2E;
+}
+
+.logo_header{
+    margin-top: 25px;
+}
+
+
+/*section1*/
+
+.section1{
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: #050827;
+    height: 530px;
+}
+
+.container_sec1{
+    background-image: url(../img/section_1/banner.png) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 940px;
+    height: 530px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.container_text_sec1{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.txt1_sec1{
+    color: #FFFFFF;
+    font-family: "Karla";
+    font-size: 12px;
+}
+.txt2_sec1{
+    color: #FFFFFF;
+    font-family: "Karla";
+    font-size: 47px;
+    padding-top: 25px;
+}
+.txt3_sec1{
+    color: #FFFFFF;
+    font-family: "Karla";
+    font-size: 17px;
+    padding-top: 25px;
+}
+
+.btn1_sec1{
+    width: 231px;
+    height: 33px;
+    font-family: "Karla";
+    font-size: 12px;
+    border-radius: 0%;
+    border-style: none;
+    font-weight: bold;
+}
+
+.button_sec1{
+    padding-top: 35px;
+}
+
+/*section2*/
+
+.section2{
+    
+}
+
+.container_sec2{
+    justify-content: center;
+    padding-top: 150px;
+    height: 3555px;
+    width: 940px;
+    max-width: 95%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.img_line_1{
+    text-align: center;
+}
+
+.txt1_sec2{
+    font-family: "Karla";
+    font-size: 28px;
+    color: #1D1F2E;
+    text-align: center;
+}
+
+.txt2_sec2{
+    font-family: "Karla";
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    padding-top: 30px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.txt3_sec2{
+    font-family: "Karla";
+    font-size: 15px;
+    color: #A25F4B;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cont_line_1{
+    width: 133px;
+    height: 2px;
+    
+}
+
+.container2_sec2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container2_2_sec2{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.container2_3_sec2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.container2_4_sec2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.txt4_sec2{
+    font-family: "Karla2";
+    font-size: 12px;
+    color: #1D1F2E;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.container3_sec2{
+    display: flex;
+    padding-top: 100px;
+}
+
+.container4_sec2{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.container5_sec2{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.container6_sec2{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.container7_sec2{
+    display: flex;
+    
+}
+
+.double_price{
+    display: flex;
+    justify-content: center;
+}
+
+.container2_price1{
+    margin-left: auto;
+}
+
+
+.txt1_price{
+    font-family: "Karla";
+    font-size: 20px;
+    color: #1D1F2E;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.txt2_price{
+    font-family: "Karla";
+    color: rgb(94, 94, 94);
+    font-size: 16px;
+    padding-top: 22px;
+    text-align: center;
+    
+}
+
+.txt2_2_price{
+    font-family: "Karla";
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+    padding-top: 22px;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.txt3_price{
+    font-family: "Karla";
+    color: #A25F4B;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.container_images_sec2{
+    width: 460px;
+    height: 280px;
+    display: flex;
+    
+}
+
+.cont_images_sec2{
+    padding-left: 20px;
+    
+}
+
+.cont_img_sec2{
+    padding-top: 15px;
+}
+
+.txt1_cont7{
+    font-family: "Karla";
+    color: #1D1F2E;
+    font-size: 12px;
+}
+
+.txt2_cont7{
+    font-family: "Karla";
+    color: #1D1F2E;
+    font-size: 36px;
+    padding-top: 25px;
+    
+}
+
+.txt3_cont7{
+    font-family: "Karla";
+    color: rgb(94, 94, 94);
+    font-size: 16px;
+    padding-top: 25px;
+    line-height: 24px;
+}
+
+.btn_sec7{
+    width: 173px;
+    height: 35px;
+    border-radius: 0px;
+    border-style: none;
+    background-color: #1D1F2E;
+    color: #FFFFFF;
+}
+
+.button1_sec7{
+    padding-top: 25px;
+}
+
+.container7_text{
+    padding-left: 80px;
+}
+
+/*section3*/
+
+.section3{
+    background-image: url(../img/section_4/banner2.png);
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+
+/*section4*/
+
+.container_sec4{
+    width: 940px;
+    height: 721px;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 110px;
+    margin-bottom: 130px;
+}
+
+.container_images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.text1_sec4{
+    font-family: "Karla";
+    color: #1D1F2E;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text1_1_sec4{
+    font-family: "Karla";
+    color: #1D1F2E;
+    font-size: 20px;
+    padding-top: 25px;
+    line-height: 25px;
+}
+
+.text1_2_sec4{
+    font-family: "Karla";
+    color: rgb(94, 94, 94);
+    font-size: 16px;
+    padding-top: 25px;
+    line-height: 25px;
+}
+
+.text1_3_sec4{
+    font-family: "Karla";
+    color: #1D1F2E;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    line-height: 25px;
+}
+
+/*section5*/
+
+.container_sec5{
+    max-width: 95%;
+    margin: auto;
+    background-color: #050827;
+    height: 327px;
+    margin-bottom: 130px;
+}
+
+.container1_text_sec5{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.text1_sec5{
+    font-family: "Karla";
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 2px;
+}
+
+.text2_sec5{
+    font-family: "Karla";
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+.inp_button_sec5{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.inp1_sec5{
+    width: 350px;
+    height: 54px;
+    border-style: solid;
+    border-color: #ffffff2c;
+    background: transparent;
+    border-radius: 0px;
+    font-size: 12px;
+    font-family: "Karla";
+    padding-left: 20px;
+}
+
+.inp1_sec5::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+
+.btn_sec5{
+    width: 129px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    border-style: none;
+    font-size: 12px;
+    font-family: "Karla";
+}
+
+.button_sec5{
+    padding-left: 10px;
+}
+
+/*footer*/
+
+.container_footer{
+    max-width: 95%;
+    margin: auto;
+    width: 940px;
+    height: 204px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.cont2_footer{
+    padding-left: 45px;
+}
+
+.cont3_footer{
+    padding-left: 60px;
+}
+
+.cont4_footer{
+    padding-left: 80px;
+}
+
+.txt1_foot{
+    font-size: 14px;
+    font-family: "Karla";
+    color: rgb(94, 94, 94);
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.txt1_2_foot{
+    font-size: 14px;
+    font-family: "Karla";
+    color: rgb(94, 94, 94);
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.txt2_foot{
+    font-size: 14px;
+    font-family: "Karla";
+    color: rgb(161, 161, 161);
+    padding-top: 85px;
+}
+
+.txt1_menu_footer{
+    font-size: 12px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    padding-top: 7px;
+    font-weight: 500;
+}
+
+.menu1_footer ul{
+    list-style: none;
+    line-height: 23px;
+    padding-top: 23px;
+}
+
+.txt1_1_foot{
+    font-size: 23px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    text-decoration: none;
+    
+}
+
+.txt2_2_foot{
+    font-size: 14px;
+    font-family: "Karla";
+    color: rgb(161, 161, 161);
+    padding-top: 57px;
+}
